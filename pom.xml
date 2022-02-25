@@ -11,8 +11,8 @@
     <groupId>com.kpilszak</groupId>
     <artifactId>micro-bank</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>micro-bank</name>
     <packaging>pom</packaging>
+    <name>micro-bank</name>
     <description>Bank microservices</description>
     <properties>
         <java.version>11</java.version>
