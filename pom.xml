@@ -20,6 +20,8 @@
     </properties>
     <modules>
         <module>accounts</module>
+        <module>cards</module>
+        <module>loans</module>
     </modules>
     <dependencies>
         <dependency>
