@@ -63,7 +63,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <image>
-                        <name>microbank/${project.artifactId}</name>
+                        <name>kpilszak/microbank_${project.artifactId}</name>
                     </image>
                 </configuration>
             </plugin>

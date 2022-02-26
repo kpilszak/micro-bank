@@ -1,0 +1,30 @@
+version: "2.1"
+
+services:
+
+  accounts:
+    image: kpilszak/microbank_accounts:latest
+    mem_limit: 700m
+    ports:
+      - "8080:8080"
+    networks:
+      - kpilszak-network
+
+  cards:
+    image: kpilszak/microbank_cards:latest
+    mem_limit: 700m
+    ports:
+      - "9000:9000"
+    networks:
+      - kpilszak-network
+
+  loans:
+    image: kpilszak/microbank_loans:latest
+    mem_limit: 700m
+    ports:
+      - "8090:8090"
+    networks:
+      - kpilszak-network
+
+networks:
+  kpilszak-network:
